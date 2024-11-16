@@ -6,17 +6,7 @@ package gr.evansp;
  */
 public class App {
     public static void main( String[] args ) throws InterruptedException {
-        doNotDoThis();
+        RunnablePattern.runnableUsage();
     }
 
-    public static void doNotDoThis() throws InterruptedException {
-        Runnable task = () -> {
-            System.out.println("HelloWorld");
-        };
-
-        Thread thread = new Thread(task);
-        thread.run();
-
-        thread.join();
-    }
 }
