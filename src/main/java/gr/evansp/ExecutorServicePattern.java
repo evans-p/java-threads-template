@@ -7,6 +7,10 @@ import java.util.concurrent.Executors;
  *
  */
 public class ExecutorServicePattern {
+
+  /**
+   *
+   */
   private ExecutorServicePattern() {
     //EMPTY
   }
