@@ -6,7 +6,7 @@ package gr.evansp;
  */
 public class App {
     public static void main( String[] args ) throws InterruptedException {
-        RunnablePattern.runnableUsage();
+        ExecutorServicePattern.fixedThreadPoolExecutor();
     }
 
 }
