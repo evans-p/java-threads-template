@@ -3,7 +3,9 @@ package gr.evansp;
 
 public class App {
     public static void main( String[] args ) throws InterruptedException {
-        ExecutorServicePattern.fixedThreadPoolExecutor();
+        ProducerConsumerWithLocks locks = new ProducerConsumerWithLocks();
+
+        locks.execute();
     }
 
 }
