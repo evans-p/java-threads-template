@@ -27,7 +27,7 @@ public class BarrierInAction {
 			
 			public String call() throws Exception {
 				
-				try {
+				try { 
 					Random random = new Random();
 					Thread.sleep((random.nextInt(20)*100 + 100));
 					System.out.println("I just arrived, waiting for the others...");
